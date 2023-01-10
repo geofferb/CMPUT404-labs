@@ -1,3 +1,3 @@
 import requests
 
-print(requests.get('https://www.google.com/teapot'))
+print(requests.get('https://google.com/'))
