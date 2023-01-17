@@ -16,6 +16,7 @@ def handle_connecion(conn, addr):
                 break
             print(data)
             conn.sendall(data)
+            # print(conn.recv(BYTES_TO_READ))
     return
 
 
